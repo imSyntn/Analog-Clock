@@ -1,6 +1,16 @@
 body {
     background-color: black;
     color: white;
+    overflow: hidden;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #clockContainer {
@@ -14,7 +24,6 @@ body {
 
 #hour, #minute, #second {
     position: absolute;
-    background: black;
     border-radius: 10px;
     transform-origin: bottom;
 }
